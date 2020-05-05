@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fc704c16fd79",
+    "company": "Lot Polish Airlines",
+    "duration": 385,
+    "destination": "Minsk",
+    "flightinfo": [
+      {
+        "latitude":53.902334,
+        "longitude":27.5618791,
+        "departureTime": "22-06-2020 T10:30-00:00",
+        "arrivalTime": "22-06-2020 T17:55-00:00",
+        "price": 792,
+        "stopdestination":"Waszarwa"
+      }
+      
+    ]
+  },
+  {
+    "id": "3fe21e46fd78",
+    "company": "Ryanair",
+    "duration": 205,
+    "destination": "Madrid",
+    "flightinfo": [
+      {
+        "latitude":40.4167047,
+        "longtitude":-3.7035825,
+        "departureTime": "22-06-2020 T13:45-00:00",
+        "arrivalTime": "22-06-2020 T17:10-00:00",
+        "price": 289
+      }
+    ]
+  },
+  {
+    "id": "8bf2b3d7be09",
+    "company": "Norwegian Air UK",
+    "duration": 1050,
+    "destination": "Rio de Janeiro",
+    "flightinfo": [
+      {
+        "latitude":-22.9110137,
+        "longtitude":-43.2093727,
+        "departureTime": "22-06-2020-T08:15-00:00",
+        "arrivalTime": "22-06-2020-T19:25-00:00",
+        "price": 4258,
+        "stopdestination":"London"
+      }
+    ]
+     
+  }
+]
