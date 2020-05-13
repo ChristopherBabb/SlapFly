@@ -79,8 +79,8 @@ public class CameraCtrl : MonoBehaviour
 											transform.right.y * offCenter.x + transform.up.y * offCenter.y,
 											transform.right.z * offCenter.x + transform.up.z * offCenter.y);
 
-		//Vector3 lightDir = Quaternion.Inverse(light.rotation) * Vector3.forward;
-		//earthRenderer.material.SetVector("_LightDir", lightDir);
-		//atmosphereRenderer.material.SetVector("_LightDir", lightDir);
+		Vector3 lightDir = Quaternion.Inverse(light.rotation) * Vector3.forward;
+		earthRenderer.material.SetVector("_LightDir", lightDir);
+		atmosphereRenderer.material.SetVector("_LightDir", lightDir);
 	}
 }
