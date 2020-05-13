@@ -4,9 +4,9 @@
  public class SpinLogic : MonoBehaviour {
  
      float f_lastX = 0.0f;
-     float f_difX = 0.5f;
+     float f_difX = 0.0f;
      float f_steps = 0.0f;
-     int i_direction = 1;
+     float i_direction = 0.0f;
  
      // Use this for initialization
      void Start () 
@@ -19,7 +19,7 @@
      {
          if (Input.GetMouseButtonDown(0))
          {
-             f_difX = 0.0f;
+             f_difX = 0f;
          }
          else if (Input.GetMouseButton(0))
          {
@@ -27,13 +27,13 @@
  
              if (f_lastX < Input.GetAxis ("Mouse X"))
              {
-                 i_direction = -1;
+                 i_direction = -3;
                  transform.Rotate(Vector3.up, -f_difX);
              }
  
              if (f_lastX > Input.GetAxis ("Mouse X"))
              {
-                 i_direction = 1;
+                 i_direction = 3;
                  transform.Rotate(Vector3.up, f_difX);
              }
  
@@ -41,8 +41,8 @@
          }
          else 
          {
-             if (f_difX > 0.5f) f_difX -= 0.05f;
-             if (f_difX < 0.5f) f_difX += 0.05f;
+             if (f_difX > 0.0f) f_difX = f_difX * .9946f;
+            //  if (f_difX < 0.5f) f_difX += 0.05f;
  
              transform.Rotate(Vector3.up, f_difX * i_direction);
          }
