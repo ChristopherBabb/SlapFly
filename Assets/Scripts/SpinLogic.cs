@@ -1,12 +1,14 @@
 ﻿ using UnityEngine;
  using System.Collections;
- 
- public class SpinLogic : MonoBehaviour {
+using System.Collections.Generic;
+
+public class SpinLogic : MonoBehaviour {
  
      float f_lastX = 0.0f;
      float f_difX = 0.0f;
      float f_steps = 0.0f;
      float i_direction = 0.0f;
+     HashSet<float> speeds = new HashSet<float>();
  
      // Use this for initialization
      void Start () 
@@ -46,5 +48,7 @@
  
              transform.Rotate(Vector3.up, f_difX * i_direction);
          }
+         Debug.Log(f_difX);
+         speeds.Add(f_difX);
      }
  }
