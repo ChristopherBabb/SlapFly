@@ -1,20 +1,20 @@
 ﻿ using UnityEngine;
  using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class SpinLogic : MonoBehaviour {
  
      float f_lastX = 0.0f;
      float f_difX = 0.0f;
-     float f_steps = 0.0f;
      float i_direction = 0.0f;
-     HashSet<float> speeds = new HashSet<float>();
  
      // Use this for initialization
      void Start () 
      {
-         
+
      }
+     
      
      // Update is called once per frame
      void Update () 
@@ -40,15 +40,13 @@ public class SpinLogic : MonoBehaviour {
              }
  
              f_lastX = -Input.GetAxis ("Mouse X");
+             
          }
          else 
          {
              if (f_difX > 0.0f) f_difX = f_difX * .9946f;
-            //  if (f_difX < 0.5f) f_difX += 0.05f;
  
              transform.Rotate(Vector3.up, f_difX * i_direction);
          }
-         Debug.Log(f_difX);
-         speeds.Add(f_difX);
      }
  }
