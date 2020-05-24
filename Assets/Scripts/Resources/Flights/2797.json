@@ -1,0 +1,12 @@
+{
+    "id": "2797",
+    "company": "Turkish Airlines",
+    "duration": 720,
+    "destination": "Mombasa",
+    "latitude": -4.032006,
+    "longtitude": 39.603165,
+    "departureTime": "22-06-2020-T14:55-00:00",
+    "arrivalTime": "23-06-2020-T03:55-00:00",
+    "price": 2797,
+    "stopdestination": "Istanbul"
+}

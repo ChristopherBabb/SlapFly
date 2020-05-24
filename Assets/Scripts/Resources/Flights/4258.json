@@ -1,0 +1,12 @@
+{
+    "price": 4258,
+    "id": "4258",
+    "company": "Norwegian Air UK",
+    "duration": 1050,
+    "destination": "Rio de Janeiro",
+    "latitude": -22.9110137,
+    "longtitude": -43.2093727,
+    "departureTime": "22-06-2020-T08:15-00:00",
+    "arrivalTime": "22-06-2020-T19:25-00:00",
+    "stopdestination": "London"
+}

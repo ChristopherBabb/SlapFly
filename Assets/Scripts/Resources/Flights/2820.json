@@ -1,0 +1,12 @@
+{
+    "id": "2820",
+    "company": "Lot Polish Airlines",
+    "duration": 915,
+    "destination": "Singapore",
+    "latitude": 1.356959,
+    "longtitude": 103.988596,
+    "departureTime": "22-06-2020-T19:45-00:00",
+    "arrivalTime": "23-06-2020-T17:00-00:00",
+    "price": 2820,
+    "stopdestination": "Waszarwa"
+}

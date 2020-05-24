@@ -1,0 +1,12 @@
+{
+    "price": 792,
+    "id": "792",
+    "company": "Lot Polish Airlines",
+    "duration": 385,
+    "destination": "Minsk",
+    "latitude": 53.902334,
+    "longitude": 27.5618791,
+    "departureTime": "22-06-2020 T10:30-00:00",
+    "arrivalTime": "22-06-2020 T17:55-00:00",
+    "stopdestination": "Waszarwa"
+}

@@ -1,0 +1,12 @@
+{
+    "id": "456",
+    "company": "Brussels Airlines",
+    "duration": 265,
+    "destination": "London",
+    "latitude": 51.469702,
+    "longtitude": -0.449431,
+    "departureTime": "22-06-2020-T18:10-00:00",
+    "arrivalTime": "22-06-2020-T21:35-00:00",
+    "price": 456,
+    "stopdestination": "Brussels"
+}

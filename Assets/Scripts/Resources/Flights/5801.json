@@ -1,0 +1,13 @@
+{
+    "id": "5801",
+    "company": "Qatar Airways",
+    "duration": 2230,
+    "destination": "Nadi",
+    "latitude": -17.752927,
+    "longtitude": 177.450743,
+    "departureTime": "22-06-2020-T15:25-00:00",
+    "arrivalTime": "24-06-2020-T14:35-00:00",
+    "price": 5801,
+    "stopdestination": "Doha",
+    "stopdestination2": "Sidney"
+}

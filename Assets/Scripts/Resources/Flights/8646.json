@@ -1,0 +1,13 @@
+{
+    "id": "8646",
+    "company": "SAS",
+    "duration": 1110,
+    "destination": "Omaha, Australia",
+    "latitude": 41.194980,
+    "longtitude": -96.114750,
+    "departureTime": "22-06-2020-T08:00-00:00",
+    "arrivalTime": "23-06-2020-T19:32-00:00",
+    "price": 8646,
+    "stopdestination": "Stockholm Arlanda",
+    "stopdestination2": "Chicago Ohare"
+}

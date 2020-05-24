@@ -1,0 +1,11 @@
+{
+    "price": 289,
+    "id": "289",
+    "company": "Ryanair",
+    "duration": 205,
+    "destination": "Madrid",
+    "latitude": 40.4167047,
+    "longtitude": -3.7035825,
+    "departureTime": "22-06-2020 T13:45-00:00",
+    "arrivalTime": "22-06-2020 T17:10-00:00"
+}

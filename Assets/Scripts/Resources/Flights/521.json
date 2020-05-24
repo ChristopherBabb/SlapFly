@@ -1,0 +1,12 @@
+{
+    "id": "521",
+    "company": "Norwegian Air Sweden",
+    "duration": 105,
+    "destination": "Budapest",
+    "latitude": 47.432950,
+    "longtitude": 19.260535,
+    "departureTime": "22-06-2020-T14:05-00:00",
+    "arrivalTime": "22-06-2020-T15:50-00:00",
+    "price": 521,
+    "stopdestination": ""
+}

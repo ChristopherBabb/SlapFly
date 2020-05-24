@@ -1,0 +1,12 @@
+{
+    "id": "488",
+    "company": "Norwegian Air",
+    "duration": 70,
+    "destination": "Stockholm",
+    "latitude": 59.355552,
+    "longtitude": 17.945631,
+    "departureTime": "22-06-2020-T10:00-00:00",
+    "arrivalTime": "22-06-2020-T11:10-00:00",
+    "price": 488,
+    "stopdestination": ""
+}
