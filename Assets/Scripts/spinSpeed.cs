@@ -5,18 +5,18 @@ using System.Linq;
 
 public class spinSpeed : MonoBehaviour
 {
- private Quaternion lastPosition;
- private float totalDegrees;
+ public Quaternion lastPosition;
+ public static float totalDegrees;
  
- private void Start()
+ public void Start()
  {
     lastPosition = transform.rotation;
     Debug.Log("Starting Position:" + lastPosition );
-    InvokeRepeating ("FindSpin", 5.0f, 5.0f);
+    InvokeRepeating ("FindSpin", 5.0f, 15.0f);
 
  }
  
- private void Update()
+ public void Update()
  {
     float distance = Quaternion.Angle( lastPosition, transform.rotation );
     totalDegrees += distance;
@@ -24,7 +24,7 @@ public class spinSpeed : MonoBehaviour
     //Debug.Log("Total distance travelled:" + totalDegrees );
  }
  
- private void FindSpin()
+ public void FindSpin()
  {
     Debug.Log("Total degrees rotated: " + totalDegrees );
     totalDegrees = 0f;

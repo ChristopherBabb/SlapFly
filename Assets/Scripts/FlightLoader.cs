@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class FlightLoader : MonoBehaviour
 {
     public List<Flight> flights;
@@ -31,7 +32,6 @@ public class FlightLoader : MonoBehaviour
 
     public void LoadFlight(string path){
         string myLoadedItem = JsonFileReader.LoadJsonAsResource(path);
-        Debug.Log("my flights " + myLoadedItem);
         Flight myFlights = JsonUtility.FromJson<Flight>(myLoadedItem);
         flights.Add(myFlights);
     }
